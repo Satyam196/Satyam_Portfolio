@@ -1,0 +1,18 @@
+Chef Installation on Ubuntu
+-----------------------------------
+
+Step 1: sudo apt-get update
+
+Step 2: sudo apt-get -y install curl
+
+Step 3: curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -P chefdk -c stable -v 0.16.28
+
+
+Install Text editor (one of the below)
+--------------------
+
+Option 1: Emacs: sudo apt-get install emacs --yes
+Option 2: Nano: sudo apt-get install nano --yes
+Option 3: Vim: sudo apt-get install vim --yes
+
+sudo apt-get install nano --yes;sudo apt-get install vim --yes
